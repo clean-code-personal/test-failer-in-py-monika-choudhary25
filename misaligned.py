@@ -1,6 +1,6 @@
 color_map = []
 
-def print_color_map():
+def capture_color_map():
     major_colors = ["White", "Red", "Black", "Yellow", "Violet"]
     minor_colors = ["Blue", "Orange", "Green", "Brown", "Slate"]
     for i, major in enumerate(major_colors):
