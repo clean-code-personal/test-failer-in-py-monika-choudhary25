@@ -17,4 +17,5 @@ print_color_map(color_map)
 assert(len(color_map) == 25), "Color map size should be 25"
 assert(all('|' in entry for entry in color_map)), "Separator '|' missing in color map entries"
 assert(all(entry.split('|')[0].strip().isdigit() for entry in color_map)), "Index should be a number"
+assert(color_map[-1] == '24 | Violet | Slate')
 print("All is well (maybe!)\n")
